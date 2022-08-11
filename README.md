@@ -1,35 +1,34 @@
-# Version Control with Git
-- Author: Sarika Chaudhary
-- Date: 2022-07-28
+# For loops
+- Author: Nishat Anjum
+- Date: 10/08/2022
 
-Basic commands to get started with git 
+Calling relevant packages to run the following codes: magrittyr, dplyr, foreach, iterator
 
 
-## 1. What is a version control system?
+## 1. Looping over vectors
 
-- Manual version control.
+- creating an object and iterating over each element to perform a set of functions
 
-- VCS helps us manage our project's files.
+- generating a formula for object mass and indexing the ith position of of the object to get the mass for that position
+- Looping over characters
 
-- A project can be anything from building websites to writing a thesis.
-  Different kinds of files that are required for such projects
-  like .txt files, js, css, html, etc.
+## 2. Using break and next in for loops
 
-## 2. How version control system can be helpful?
+- The important difference between them is that while break terminates the loop, next command skips the specified iteration and moves on to the next one.
 
-- History: git keeps track of every change that we make to our project.
 
-- Collaboration: We generally use email for collaboration.
+## 3. Nested for loops in data frame
 
-- Feature Branches: add features and merge them later.
+- Creating a dataframe with student names and codes per day
 
-## 3. What is git, and how does it work?
-
-- Git is one of the most popular and decentralised version control systems.
-
-- It keeps snapshots of the entire directory at different points.
-
-## 4. How to install git?
+- Nesting for loop to perform a set of instructions on the first 5 elements of the dataframe, multiplying the number of codes run by students per day by 10.
+- 'df$Codes_new[2]' gives the indexed codes run per day for the 2nd student
+## 4. Simulation study to generate the sample mean of n data points from a u.d over interval (0,1)
+- generating 2 random numbers from a uniform distribution
+- repeating this process for 50000 repetitions
+- obtaining mean for each pair of points generated from the uniform distribution using mean function
+- using set.seed(1) for reproducibility in the generation of random numbers
+- generating a histogram to study the distribution of mean using 'hist(Mean, breaks = 40, main = paste("n = ", n))' 
 
 - For Macbook use following command to install git:
 
