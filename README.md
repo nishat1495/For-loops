@@ -1,3 +1,2 @@
 # For-loops
-For loops
-getting started with for loops
+Calling relevant libraries: dplyr, foreach, magrittr, iterator
