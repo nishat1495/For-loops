@@ -2,7 +2,7 @@
 - Author: Nishat Anjum
 - Date: 10/08/2022
 
-Calling relevant packages to run the following codes: magrittyr, dplyr, foreach, iterator
+Calling relevant libraries to run the following codes: magrittyr, dplyr, foreach, iterator
 
 
 ## 1. Looping over vectors
